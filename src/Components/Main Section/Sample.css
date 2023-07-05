@@ -1,0 +1,99 @@
+.main_section {
+    color: #ffffff;
+
+}
+.market-history-panel svg {
+    overflow: visible;
+    padding-top: 1.25rem;
+}
+.split-panels {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.split-panels__item {
+    width: 46%;
+}
+div {
+    display: block;
+}
+.market-history-panel__overview--earn {
+    --label-color: #00AD79;
+}
+.market-history-panel__overview {
+    background: transparent;
+    width: 100%;
+    padding-bottom: 1rem;
+    --label-color: #FFFFFF;
+}
+.market-history-panel__overview__label {
+    color: var(--label-color);
+}
+label, .label {
+    font-family: var(--label-font-family);
+    font-size: var(--label-font-size);
+    font-weight: var(--label-font-weight);
+    line-height: var(--label-line-height);
+}
+.market-history-panel__overview__value {
+    color: var(--text--1);
+    display: flex;
+    align-items: center;
+}
+h1--emphasized, h2--emphasized, h3--emphasized, h4--emphasized, h5--emphasized, .heading--emphasized {
+    font-family: var(--heading-font-family--emphasized);
+    font-size: var(--heading-font-size--emphasized);
+    font-weight: var(--heading-font-weight--emphasized);
+    line-height: var(--heading-line-height--emphasized);
+}
+h1, h2, h3, h4, h5, .heading {
+    font-family: var(--heading-font-family);
+    font-size: var(--heading-font-size);
+    font-weight: var(--heading-font-weight);
+    line-height: var(--heading-line-height);
+}
+.L1 {
+    --heading-font-family: Haas Grot Disp R;
+    --heading-font-size: 2rem;
+    --heading-font-weight: 500;
+    --heading-line-height: 3.25rem;
+    --heading-paragraph: 0rem;
+    --heading-font-family--emphasized: Haas Grot Disp R;
+    --heading-font-size--emphasized: 2rem;
+    --heading-font-weight--emphasized: 600;
+    --heading-line-height--emphasized: 3.25rem;
+    --heading-paragraph--emphasized: 0rem;
+    --body-font-family: Haas Grot Text R;
+    --body-font-size: 1.25rem;
+    --body-font-weight: 400;
+    --body-line-height: 1.75rem;
+    --body-paragraph: 1rem;
+    --body-font-family--emphasized: Haas Grot Text R;
+    --body-font-size--emphasized: 1.25rem;
+    --body-font-weight--emphasized: 500;
+    --body-line-height--emphasized: 1.75rem;
+    --body-paragraph--emphasized: 1rem;
+    --meta-font-family: Haas Grot Text R;
+    --meta-font-size: .8125rem;
+    --meta-font-weight: 500;
+    --meta-line-height: 1.25rem;
+    --meta-paragraph: .5rem;
+    --label-font-family: Haas Grot Text R;
+    --label-font-size: .8125rem;
+    --label-font-weight: 500;
+    --label-line-height: 1.125rem;
+    --label-paragraph: 0rem;
+    --label-font-family--secondary: Haas Grot Text R;
+    --label-font-size--secondary: .75rem;
+    --label-font-weight--secondary: 400;
+    --label-line-height--secondary: 1rem;
+    --label-paragraph--secondary: 0rem;
+}
+.market-history-panel svg {
+    overflow: visible;
+    padding-top: 1.25rem;
+}
+:not(svg) {
+    transform-origin: 0px 0px;
+}

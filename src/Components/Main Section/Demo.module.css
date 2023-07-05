@@ -1,0 +1,535 @@
+.container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    /* min-height: 150vh; */
+    align-items: center;
+    flex-direction: column;
+  }
+  .main {
+    /* margin-top: 200px; */
+    gap: 20px;
+    top: 172px;
+    left: 368px;
+    width: 1184px;
+    display: flex;
+    padding: 0 20px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .divpanel {
+    display: flex;
+    padding: 40px 40px 32.3800048828125px;
+    overflow: hidden;
+    align-items: flex-start;
+    border-radius: 8px;
+    background-color: rgba(29, 40, 51, 1);
+  }
+  .divmarketoverview {
+    gap: 0.01995849609375px;
+    display: flex;
+    padding: 0 0.010040283203125px 0.00000286102294921875px 0;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  .divmarketoverviewstats {
+    width: 638.3900146484375px;
+    height: 120px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .divmarketoverviewstatsitem {
+    gap: 8px;
+    top: 0px;
+    left: 0px;
+    width: 160px;
+    display: flex;
+    padding: 0 79.58999633789062px 0 0;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .total {
+    width: 80px;
+    height: 28px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .text {
+    color: rgba(122, 138, 153, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Medium;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    line-height: 16px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .percentage {
+    width: 80px;
+    height: 28px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .logoPercentage {
+    padding-left: 7px;
+  }
+  .divmarketoverviewstatsitem1 {
+    gap: 8px;
+    top: 0px;
+    left: 159.58999633789062px;
+    width: 160px;
+    display: flex;
+    padding: 0 79.58999633789062px 0 0;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .logo {
+    height: 22px;
+    border-radius: 50%;
+  }
+  .divmarketoverviewstatsitem2 {
+    gap: 8px;
+    top: 0px;
+    left: 319.19000244140625px;
+    width: 160px;
+    display: flex;
+    padding: 0 71.58999633789062px 0 0;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .divmarketoverviewstatsitem3 {
+    gap: 8px;
+    top: 0px;
+    left: 478.7799987792969px;
+    width: 160px;
+    display: flex;
+    padding: 0 79.58999633789062px 0 0;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .divmarketoverviewstatsitem4 {
+    gap: 8px;
+    top: 68px;
+    left: 0px;
+    width: 160px;
+    display: flex;
+    padding: 0 76.58999633789062px 0 0;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .divmarketoverviewstatsitem5 {
+    gap: 8px;
+    top: 68px;
+    left: 159.58999633789062px;
+    width: 160px;
+    display: flex;
+    padding: 0 79.58999633789062px 0 0;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .divmarketoverviewstatsitem6 {
+    gap: 8px;
+    top: 68px;
+    left: 319.19000244140625px;
+    width: 160px;
+    display: flex;
+    padding: 0 57.589996337890625px 0 0;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .divmarketoverviewstatsitem7 {
+    gap: 8px;
+    top: 68px;
+    left: 478.7799987792969px;
+    width: 160px;
+    display: flex;
+    padding: 0 79.58999633789062px 0 0;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .divinterestratemodel {
+    gap: 7.989997863769531px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .divinterestratemodelkeys {
+    width: 64.19000244140625px;
+    height: 133.9199981689453px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .text1 {
+    top: 14.299999237060547px;
+    left: 12.359999656677246px;
+    color: rgba(240, 242, 245, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.5px;
+    font-style: Medium;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    line-height: 16px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .text2 {
+    top: 68.52999877929688px;
+    color: rgba(143, 102, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.2px;
+    font-style: Medium;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    line-height: 16px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .text3 {
+    top: 106.7699966430664px;
+    left: 13.949999809265137px;
+    color: rgba(0, 194, 137, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.5px;
+    font-style: Medium;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    line-height: 16px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .divinterestratemodelkeys1 {
+    width: 51.189998626708984px;
+    height: 133.9199981689453px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .text4 {
+    top: 16.299999237060547px;
+    left: 43.08000183105469px;
+    color: rgba(240, 242, 245, 1);
+    width: 8px;
+    height: auto;
+    position: absolute;
+    font-size: 11px;
+    font-style: Medium;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    line-height: 16px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .text5 {
+    top: 70.52999877929688px;
+    left: 43.08000183105469px;
+    color: rgba(143, 102, 255, 1);
+    width: 8px;
+    height: auto;
+    position: absolute;
+    font-size: 11px;
+    font-style: Medium;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    line-height: 16px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .text6 {
+    top: 108.7699966430664px;
+    left: 43.08000183105469px;
+    color: rgba(0, 194, 137, 1);
+    width: 8px;
+    height: auto;
+    position: absolute;
+    font-size: 11px;
+    font-style: Medium;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    line-height: 16px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .svg4 {
+    width: 270px;
+    height: 131px;
+    padding-left: 24px;
+  }
+  .divpanel1 {
+    display: flex;
+    padding: 40px 0 32px;
+    overflow: hidden;
+    align-items: flex-start;
+    border-radius: 8px;
+    background-color: rgba(29, 40, 51, 1);
+  }
+  .divpanelmarketsassetscontent {
+    display: flex;
+    padding: 0 40px;
+    overflow: hidden;
+    align-items: flex-start;
+  }
+  .table {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .header-row {
+    width: 1064px;
+    height: 18px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .main-text1 {
+    top: 1px;
+    left: 1px;
+    color: rgba(122, 138, 153, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11px;
+    font-style: Medium;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    line-height: 16px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .main-text2 {
+    top: 1px;
+    left: 246.97999572753906px;
+    color: rgba(122, 138, 153, 1);
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: Medium;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    line-height: 16px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .main-text3 {
+    top: 1px;
+    left: 483.7200012207031px;
+    color: rgba(122, 138, 153, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11px;
+    font-style: Medium;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    line-height: 16px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .main-text4 {
+    top: 1px;
+    left: 599.7999877929688px;
+    color: rgba(122, 138, 153, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11.3px;
+    font-style: Medium;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    line-height: 16px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .main-text5 {
+    top: 1px;
+    left: 716.0900268554688px;
+    color: rgba(122, 138, 153, 1);
+    height: auto;
+    position: absolute;
+    font-size: 11px;
+    font-style: Medium;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    line-height: 16px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .main-text6 {
+    top: 1px;
+    left: 832.4099731445312px;
+    color: rgba(122, 138, 153, 1);
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: Medium;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    line-height: 16px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .main-text7 {
+    top: 1px;
+    left: 948.8400268554688px;
+    color: rgba(122, 138, 153, 1);
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: Medium;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    line-height: 16px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+  .body {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .row {
+    width: 1064px;
+    height: 80px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .data {
+    top: 32px;
+    left: 48px;
+    width: 127px;
+    height: 16px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .main-img {
+    height: 30px;
+    border-radius: 50%;
+  }
+  .data01 {
+    top: 32px;
+    left: 246.97999572753906px;
+    width: 143px;
+    height: 16px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .data02 {
+    top: 32px;
+    left: 483.7200012207031px;
+    width: 67px;
+    height: 16px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .data03 {
+    top: 32px;
+    left: 599.7999877929688px;
+    width: 67px;
+    height: 16px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .data04 {
+    top: 32px;
+    left: 716.0900268554688px;
+    width: 67px;
+    height: 16px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .data05 {
+    top: 32px;
+    left: 832.4099731445312px;
+    width: 67px;
+    height: 16px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .data06 {
+    top: 32px;
+    left: 948.8400268554688px;
+    width: 81px;
+    height: 16px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+.data07 {
+    top: 22px;
+    left: 1px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 18px;
+}
+
+
+.asset--USDC {
+    background-image: url(../../assets/usd_unreal.png);
+}
+.asset {
+  flex-shrink: 0;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%;
+  width: 2.25rem;
+  height: 2.25rem;
+}
+

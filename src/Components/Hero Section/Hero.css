@@ -1,0 +1,45 @@
+.hero {
+    font-family: Haas Grot Disp R;
+    margin: 55px 150px;
+}
+
+.Content {
+    color: #ffffff;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+.sub-content, .ethereum, .divider {
+    color: #7A8A99; 
+}
+.sub-content {
+    margin-top: 0px;
+    margin-left: 110px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.graphContent {
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 70px 22px;
+}
+.content_2 {
+    margin-left: 500px;
+}
+.content_text1 {
+    background: transparent;
+    width: 100%;
+    padding-bottom: 1rem;
+    color: #00AD79;
+}
+.content_text2 {
+    background: transparent;
+    width: 100%;
+    padding-bottom: 1rem;
+    color: #8F66FF;
+}
+.content_value1, .content_value2 {
+    color: #FFFFFF;
+    align-items: center;
+}
